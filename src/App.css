@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 8 20 / var(--tw-bg-opacity));
+}
+
+/* App.css */
+.btn {
+    background-color: #1a202c;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #2d3748;
+    margin-left: 20px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 767px) {
+    .btn {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .btn {
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .btn {
+        padding: 10px 14px;
+        font-size: 18px;
+    }
+}
+
+
